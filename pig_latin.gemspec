@@ -6,9 +6,9 @@ require 'pig_latin/version'
 Gem::Specification.new do |spec|
   spec.name          = "pig_latin"
   spec.version       = PigLatin::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
+  spec.authors       = ["Sachin"]
+  spec.email         = ["sachinahj@gmail.com "]
+  spec.summary       = %q{Pig Latin App}
   spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = ""
   spec.license       = "MIT"
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_development_dependency "rspec", "~> 2.14.1"
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
 end
