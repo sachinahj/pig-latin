@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "pig_latin"
   spec.version       = PigLatin::VERSION
   spec.authors       = ["Sachin"]
-  spec.email         = ["sachinahj@gmail.com "]
+  spec.email         = ["sachinahj@gmail.com"]
   spec.summary       = %q{Pig Latin App}
   spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = ""
